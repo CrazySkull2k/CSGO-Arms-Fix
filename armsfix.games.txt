@@ -1,0 +1,31 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"CreateInterface"
+			{
+				"library"		"engine"
+				"windows"		"@CreateInterface"
+				"linux"			"@CreateInterface"
+			}
+		}
+	}
+	
+	"csgo"
+	{
+		"Keys"
+		{
+			"EngineInterface"	"VEngineServer023"
+		}
+		"Offsets"
+		{
+			"Precache"
+			{
+				"windows"	"5"
+				"linux"		"5"
+			}
+		}
+	}
+}
